@@ -7,7 +7,7 @@ def reverse_c_style_string(c_string):
 
     # initialize two pointers, one at the start
     # one at the end (before the null characters)
-    left, right = 0, length
+    left, right = 0, length - 1
 
     # swap characters until the two pointers meet in the middle
     while left < right:
