@@ -1,0 +1,6 @@
+convert the string to a list to perform in-place modification
+initialize two variables:
+i: pointer to iterate through the string
+j: a pointer to keep track of the index where the unique characters should be written in the original string.
+if the first character(i = 0), or if the current character(string[i]) is different from the previous character(string[i-1]), then add the character to the string at the index pointed to by j and increment j.
+after the completion of the loop, return the string converted from the list.
